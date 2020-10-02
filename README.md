@@ -1,6 +1,6 @@
 # react-input-with-debouncing
 
-A small lightweight React input component with debouncing that can be used in place of normal <input /> or <textare /> fields.The component renders input with debouncing onChange event.
+A small lightweight React input component with debouncing that can be used in place of normal `<input />` or `<textarea />` fields.The component renders input with debouncing onChange event.
 
 [![NPM](https://img.shields.io/npm/v/react-input-with-debouncing.svg)](https://www.npmjs.com/package/react-input-with-debouncing) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
