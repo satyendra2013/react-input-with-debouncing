@@ -65,7 +65,7 @@ class ExampleInputWithDebouncing extends Component {
 
 ## Usage explanation
 
-### Note: This package is primarily built and tested on <input/> and <textarea/> keeping use cases in mind. But you can explore.
+### Note: This package is primarily built and tested on `<input />` and `<textarea />` keeping use cases in mind. But you can explore.
 
 ### `element` : PropTypes.oneOfType([PropTypes.string, PropTypes.func]) (default: 'input')
 
