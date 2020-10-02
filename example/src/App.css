@@ -1,0 +1,40 @@
+.app {
+    padding: 2px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+
+  .usecase {
+    padding-bottom: 40px;
+  }
+  
+  .custom-config {
+    padding-bottom: 20px;
+  }
+  
+  .label {
+    padding-right: 20px;
+  }
+  
+  .input {
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .item {
+    margin-right: 10px;
+  }
+
+  .label-undo, .label-redo {
+    padding-right: 2px;
+  }
+  .input-undo, .input-redo {
+      margin: 0px;
+  }
+
+  .label-button {
+      padding-right: 2px;
+  }

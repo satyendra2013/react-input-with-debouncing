@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import InputWithDebouncing from '.';
 
-describe('ExampleComponent', () => {
+describe('InputWithDebouncing', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(InputWithDebouncing).toBeTruthy();
+  });
+});

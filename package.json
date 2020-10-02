@@ -1,10 +1,29 @@
 {
   "name": "react-input-with-debouncing",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
-  "author": "satyendra2013",
+  "description": "A small lightweight React input component with debouncing that can be used in place of normal <input /> or <textare />. The component renders input with debouncing onChange event.",
+  "author": {
+    "name": "Satyendra Pandit",
+    "email": "satyendrapandit2018@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Satyendra Pandit"
+    }
+  ],
   "license": "MIT",
-  "repository": "satyendra2013/react-input-with-debouncing",
+  "repository": "https://github.com/satyendra2013/react-input-with-debouncing.git",
+  "bugs": "https://github.com/satyendra2013/react-input-with-debouncing/issues",
+  "keywords": [
+    "react-component",
+    "react",
+    "input",
+    "react-input-component",
+    "react-text-area-component",
+    "debounce",
+    "input-with-debounce",
+    "text-area-with-debounce"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +68,9 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.7.2"
+  }
 }

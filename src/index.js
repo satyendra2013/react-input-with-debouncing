@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import InputWithDebouncing from './component/InputWithDebouncing';
+/* import styles from './styles.module.css'; optional kept for future */
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+InputWithDebouncing.InputWithDebouncing = InputWithDebouncing;
+export default InputWithDebouncing;

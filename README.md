@@ -2,10 +2,10 @@
 
 A small lightweight React input component with debouncing that can be used in place of normal <input /> or <textare /> fields.The component renders input with debouncing onChange event.
 
-
 [![NPM](https://img.shields.io/npm/v/react-input-with-debouncing.svg)](https://www.npmjs.com/package/react-input-with-debouncing) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
+
 ### NPM
 
 ```bash
@@ -36,16 +36,18 @@ class ExampleInputWithDebouncing extends Component {
         className='input-search'
         minLength={1}
         debounceTimeout={1000}
-				onChange={(e) => this.setState({ value: e.target.value })}
-				value={this.state.value}
+        onChange={(e) => this.setState({ value: e.target.value })}
+        value={this.state.value}
       />
     )
   }
 }
 ```
+
 ## Options
 
 ### Default prop values
+
 ```js
 <InputWithDebouncing
   element= 'input',
@@ -62,11 +64,12 @@ class ExampleInputWithDebouncing extends Component {
 ```
 
 ## Usage explanation
+
 ### Note: This package is primarily built and tested on <input /> and <textarea /> keeping use cases in mind. But you can explore.
 
 ### `element` : PropTypes.oneOfType([PropTypes.string, PropTypes.func]) (default: 'input')
 
-element prop can take either one of the value from `input` or `textarea`. 
+element prop can take either one of the value from `input` or `textarea`.
 
 ### `type` : PropTypes.string (default: 'text')
 
@@ -74,7 +77,7 @@ Default value of `type` prop is `text` but you can specify other options like `n
 
 ### `onChange`: PropTypes.func.isRequired (Mandatory Props)
 
-`onChange` function is called with event passed through it on input change with debounced timeout. 
+`onChange` function is called with event passed through it on input change with debounced timeout.
 
 ### `value`: PropTypes.oneOfType([PropTypes.string, PropTypes.number]) (default: undefined)
 
@@ -104,7 +107,7 @@ Pass `ref={inputRef}` to generated input element. `ref` is a special prop in Rea
 
 This is an arbitrary prop which is directly applied to input field.
 
-### `placeholder` : placeholder props will be applied directly on generated input. 
+### `placeholder` : placeholder props will be applied directly on generated input.
 
 This is an arbitrary prop which is directly applied to input field.
 
