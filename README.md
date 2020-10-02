@@ -139,4 +139,4 @@ npm run test:watch
 
 ## License
 
-MIT © [satyendra2013](https://github.com/satyendra2013)
+MIT © [Satyendra Pandit](https://github.com/satyendra2013)
