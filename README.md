@@ -2,7 +2,7 @@
 
 A small lightweight React input component with debouncing that can be used in place of normal `<input />` or `<textarea />` fields.The component renders input with debouncing onChange event.
 
-[![NPM](https://img.shields.io/npm/v/react-input-with-debouncing.svg)](https://www.npmjs.com/package/react-input-with-debouncing) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![node-current (tag)](https://img.shields.io/node/v/react-input-with-debouncing/latest)][![npm peer dependency version](https://img.shields.io/npm/dependency-version/react-input-with-debouncing/peer/react)]
+[![NPM](https://img.shields.io/npm/v/react-input-with-debouncing.svg)](https://www.npmjs.com/package/react-input-with-debouncing)[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![node-current](https://img.shields.io/node/v/react-input-with-debouncing/latest)][![npm peer dependency version](https://img.shields.io/npm/dependency-version/react-input-with-debouncing/peer/react)]
 
 ## Installation
 
