@@ -1,6 +1,6 @@
 {
   "name": "react-input-with-debouncing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small lightweight React input component with debouncing that can be used in place of normal <input /> or <textare />. The component renders input with debouncing onChange event.",
   "author": {
     "name": "Satyendra Pandit",

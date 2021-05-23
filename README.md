@@ -18,7 +18,7 @@ npm install --save react-input-with-debouncing
 import React, { Component } from 'react'
 
 import InputWithDebouncing from 'react-input-with-debouncing'
-import 'react-input-with-debouncing/dist/index.css' //import of index.css is optional
+import 'react-input-with-debouncing/dist/index.css' //import of index.css is totally optional.
 
 class ExampleInputWithDebouncing extends Component {
   constructor(props) {
